@@ -1,1 +1,55 @@
 # Leaderboard
+
+> In this project, I set up a leaderboard webapp where the user of the application is able to add name and score to the list.
+  The app will fetch data using an external API to get highscores. I use webpack for package management and modern day javascript.
+
+## Built With
+
+- HTML
+- CSS
+- Javascript
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+There are no prerequisites for this project.
+
+### Setup
+
+Clone the repository 
+
+### Install
+
+Install all the dependencies and necessary packages by running the command `npm -i`
+
+### Run
+
+To run the project, use the command `npm start`
+
+### Link to Repo
+
+[Leaderboard](https://abe1able.github.io/Leaderboard/)
+
+## Author
+
+👤 **Abel Seifu**
+
+- GitHub: [@abe1able](https://github.com/abe1able)
+- Twitter: [@AbelSeifu15](https://twitter.com/AbelSeifu15)
+- Linkedin: [@abelseifu](https://www.linkedin.com/in/abel-seifu-184543233/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Abe1able/Leaderboard/issues)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
