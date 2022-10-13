@@ -1,12 +1,8 @@
-import _ from 'lodash';
 import './style.css';
+import scores from './modules/scores.js';
 
- function component() {
-   const element = document.createElement('div');
-   
-   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+const scoresList = document.querySelector('.scores-list');
 
-   return element;
- }
-
- document.body.appendChild(component());
+scoresList.innerHTML = scores.map((e) => `
+        <p class="score-table">${e.Name}: ${e.Score}</p>
+    `).join('');
