@@ -1,11 +1,29 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+h1 {
+    font-size: 60px;
+    padding-left: 35%;
+}
+
+h2 {
+    font-size: 40px;
+}
 .container {
   display: flex;
   justify-content: space-evenly;
   gap: 50px;
+  margin: 20px;
+  padding: 30px;
+  font-size: 12px;
+  line-height: 20px;
+  border-radius: 32px;
+  background: #854ebc;
+  box-shadow:  20px 20px 29px #663c91,
+             -20px -20px 29px #a460e7;
 }
 
 .header {
@@ -19,24 +37,18 @@ body {
   font-size: 15px;
   box-shadow: 3px 4px 0 1px;
   border: 3px solid;
-  padding: 0;
+  padding: 2px 10px;
 }
 
 .score-section {
   width: 40%;
 }
 
-.score-table {
-  margin: 0;
-  font-size: 20px;
-  line-height: 40px;
-}
-
-.score-table:nth-child(even) {
+.scores:nth-child(even) {
   background: #fff;
 }
 
-.score-table:nth-child(odd) {
+.scores:nth-child(odd) {
   background: lightgray;
 }
 
@@ -58,3 +70,18 @@ form {
   display: flex;
   justify-content: end;
 }
+
+.scores {
+  list-style : none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name {
+    padding-left: 40px;
+}
+.score {
+    padding-right: 40px;
+}
+
