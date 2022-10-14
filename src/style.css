@@ -5,13 +5,14 @@ body {
 }
 
 h1 {
-    font-size: 60px;
-    padding-left: 35%;
+  font-size: 60px;
+  padding-left: 35%;
 }
 
 h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
+
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -22,8 +23,9 @@ h2 {
   line-height: 20px;
   border-radius: 32px;
   background: #854ebc;
-  box-shadow:  20px 20px 29px #663c91,
-             -20px -20px 29px #a460e7;
+  box-shadow:
+    20px 20px 29px #663c91,
+    -20px -20px 29px #a460e7;
 }
 
 .header {
@@ -42,6 +44,13 @@ h2 {
 
 .score-section {
   width: 40%;
+}
+
+.scores {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .scores:nth-child(even) {
@@ -71,17 +80,10 @@ form {
   justify-content: end;
 }
 
-.scores {
-  list-style : none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .name {
-    padding-left: 40px;
-}
-.score {
-    padding-right: 40px;
+  padding-left: 40px;
 }
 
+.score {
+  padding-right: 40px;
+}
